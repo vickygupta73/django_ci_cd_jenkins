@@ -4,7 +4,7 @@ if [ -d "env" ]
 then
     echo "Python virtual environment exists."
 else
-    python -m venv env
+    python -m virtualenv env
 fi
 
 source env/bin/activate
